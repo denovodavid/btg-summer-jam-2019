@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: ee9f02a2bd4ed074487f9302437117d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2197390420598229644
+    second: Game-Jam-Ligaments_0
+  - first:
+      213: 5727607647341830526
+    second: Game-Jam-Ligaments_1
+  - first:
+      213: -7493487835234402308
+    second: Game-Jam-Ligaments_2
+  - first:
+      213: 1211363760124619876
+    second: Game-Jam-Ligaments_3
+  - first:
+      213: -798457660260369422
+    second: Game-Jam-Ligaments_4
+  - first:
+      213: 3751582443102083455
+    second: Game-Jam-Ligaments_5
+  - first:
+      213: 5888974669078337512
+    second: Game-Jam-Ligaments_6
+  - first:
+      213: 505245364769540757
+    second: Game-Jam-Ligaments_7
+  - first:
+      213: 2822395568266800113
+    second: Game-Jam-Ligaments_8
+  - first:
+      213: -5171762998895500448
+    second: Game-Jam-Ligaments_9
+  - first:
+      213: 8106904686143910899
+    second: Game-Jam-Ligaments_10
+  - first:
+      213: 1289141572938017703
+    second: Game-Jam-Ligaments_11
+  - first:
+      213: 2605352628973029539
+    second: Game-Jam-Ligaments_12
+  - first:
+      213: -684534311126928222
+    second: Game-Jam-Ligaments_13
+  - first:
+      213: 4391322861477991958
+    second: Game-Jam-Ligaments_14
+  - first:
+      213: 6947172747584055023
+    second: Game-Jam-Ligaments_15
+  - first:
+      213: 6943091744954543807
+    second: Game-Jam-Ligaments_16
+  - first:
+      213: -8486572517150959731
+    second: Game-Jam-Ligaments_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_0
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1409
+        width: 378
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7f5ce45ddfa3e46b442e1b392d472c
+      internalID: -2197390420598229644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_1
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1480
+        width: 133
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b1e25699cdc24419bb79132fcf30fb
+      internalID: 5727607647341830526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_2
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1356
+        width: 133
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5727cd7117385b4ba8d74fce26a919d
+      internalID: -7493487835234402308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 735
+        width: 210
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e81a27b0aab52b46be47de1fda3a74a
+      internalID: 1211363760124619876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 810
+        width: 209
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5981beb1f412f64fb8cf602e13d666f
+      internalID: -798457660260369422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_5
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 856
+        width: 159
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa74aaf5d8a5c348add34f72d7a1f34
+      internalID: 3751582443102083455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_6
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 808
+        width: 107
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7998f9b7235534d8817c4b85707c27
+      internalID: 5888974669078337512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_7
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 853
+        width: 157
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fe1792c80c9244287ab37378936da1
+      internalID: 505245364769540757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_9
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 382
+        width: 164
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e281ade200159d42988635e9e278ed9
+      internalID: -5171762998895500448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_10
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 412
+        width: 71
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31148b5dbe6739844a0b48730ea0274d
+      internalID: 8106904686143910899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_11
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 413
+        width: 84
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112521ba33664f348a0feb7819b452b1
+      internalID: 1289141572938017703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_12
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 466
+        width: 135
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d84d9915a1e79346b758bf045ce7906
+      internalID: 2605352628973029539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_13
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 390
+        width: 252
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23697f24e05a30047941a1c450fbb95e
+      internalID: -684534311126928222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 344
+        width: 180
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb910bd60b7c3c2428a4a84ba627bbe1
+      internalID: 4391322861477991958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-Jam-Ligaments_17
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 115
+        width: 347
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be83ef3f037669741824068b4401aa30
+      internalID: -8486572517150959731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ce6e484803c33b644bdeeb64c5995ff4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

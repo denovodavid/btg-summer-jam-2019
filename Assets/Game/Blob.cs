@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class Blob : MonoBehaviour
 {
@@ -8,17 +9,48 @@ public class Blob : MonoBehaviour
     public PolygonCollider2D polygonCollider;
     public float stretchSpeed;
     public float maxStretch;
-    public HingeJoint2D[] legs;
+    public float legForce = 100;
+    public List<Leg> legs;
     public GameObject blobby;
+    public GameObject jointPointPrefab;
+
+    [HideInInspector]
+    public List<GameObject> jointPoints;
 
     Vector2[] startPoints;
     Vector3 blobbyScale;
+
+    private void Awake()
+    {
+        // legs = new List<Leg>();
+    }
 
     private void Start()
     {
         startPoints = polygonCollider.GetPath(0);
         blobbyScale = blobby.transform.localScale;
+
+        // for (int i = 0; i < startPoints.Length; i++)
+        // {
+        //     jointPoints.Add(Instantiate(jointPointPrefab, transform.TransformPoint(startPoints[i]), Quaternion.identity));
+        // }
     }
+
+    // private void FixedUpdate()
+    // {
+    //     var path = polygonCollider.GetPath(0);
+    //     for (int i = 0; i < path.Length; i++)
+    //     {
+    //         var pos = transform.TransformPoint(path[i]);
+    //         var rot = transform.TransformVector(path[i]);
+    //         // jointPoints[i].transform.rotation = Quaternion.LookRotation(rot, jointPoints[i].transform.up);
+    //         // jointPoints[i].transform.up = rot;
+    //         // jointPoints[i].transform.Rotate()
+    //         // jointPoints[i].GetComponent<Rigidbody2D>().MoveRotation(rot);
+    //         jointPoints[i].GetComponent<Rigidbody2D>().MovePosition(pos);
+    //         // jointPoints[i].transform.position = jointPoints[i].transform.position;
+    //     }
+    // }
 
     private void Update()
     {
@@ -34,8 +66,20 @@ public class Blob : MonoBehaviour
         var jump = Input.GetKey(KeyCode.Space);
         foreach (var leg in legs)
         {
-            leg.useMotor = jump;
+            // if (Input.GetAxis("Horizontal") != 0)
+            // {
+            //     var motor = leg.motor;
+            //     motor.motorSpeed = Mathf.Abs(motor.motorSpeed) * Mathf.Sign(Input.GetAxis("Horizontal"));
+            //     leg.motor = motor;
+            // }
+            // leg.useMotor = jump;
+            leg.spring.distance = jump ? 0.2f : 1.8f;
         }
+
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     rb.AddForce(Vector2.up * 100, ForceMode2D.Impulse);
+        // }
 
         var scale = polygonCollider.bounds.size;
         var ratioX = scale.x / scale.y;
